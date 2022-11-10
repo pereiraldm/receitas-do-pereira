@@ -1,0 +1,61 @@
+
+
+main{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+    display: flex;
+}
+
+.receitas-pratos{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-height: 320px;
+}
+
+.receitas{
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card {
+    flex: 1;
+    background-color: navajowhite;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+    min-width: 260px;
+    min-height: 530px;
+}
+
+main h2{
+    font-size: 21px;
+    flex-direction: column;
+}
+
+
+main img{
+    max-height: 110px;
+    padding: 10px;
+    width: 220px;
+}
+
+main ul{
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+
+main ul li{
+    flex-wrap: nowrap;
+    text-align: justify;
+}
+
+main p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
